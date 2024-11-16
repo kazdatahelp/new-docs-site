@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #f5f6f7; }
+    .header { fill: #4051b5; }
+    .text { font: 14px sans-serif; fill: #333; }
+    .title { font: bold 18px sans-serif; fill: white; }
+    .panel { fill: white; stroke: #ddd; }
+    .button { fill: #4051b5; }
+    .button-text { font: 12px sans-serif; fill: white; }
+  </style>
+  
+  <!-- Background -->
+  <rect class="bg" width="800" height="400"/>
+  
+  <!-- Header -->
+  <rect class="header" width="800" height="50"/>
+  <text class="title" x="20" y="32">Organizations Module</text>
+  
+  <!-- Search Panel -->
+  <rect class="panel" x="20" y="70" width="760" height="60" rx="4"/>
+  <text class="text" x="40" y="105">Search Companies</text>
+  
+  <!-- Filters Panel -->
+  <rect class="panel" x="20" y="150" width="200" height="230" rx="4"/>
+  <text class="text" x="40" y="180">Filters</text>
+  
+  <!-- Results Panel -->
+  <rect class="panel" x="240" y="150" width="540" height="230" rx="4"/>
+  <text class="text" x="260" y="180">Results</text>
+  
+  <!-- Action Buttons -->
+  <rect class="button" x="680" y="90" width="80" height="30" rx="4"/>
+  <text class="button-text" x="700" y="110">Search</text>
+</svg>

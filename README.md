@@ -1,135 +1,174 @@
-# KazDATA Documentation Project
+# KazDATA Documentation
 
-Documentation for the KazDATA platform, built with MkDocs.
+Official documentation for the KazDATA platform - Kazakhstan's comprehensive business data solution.
+
+## Overview
+
+This documentation provides detailed information about using the KazDATA platform, including:
+
+- Getting started guides
+- Core module documentation
+- Advanced tutorials
+- API reference
+- Best practices
+- Support resources
 
 ## Project Structure
 
 ```
 kazdata-docs/
-├── docs/                    # Documentation source files
+├── docs/
+│   ├── assets/              # Static assets (images, CSS)
 │   ├── getting-started/     # Getting started guides
-│   ├── modules/            # Module documentation
-│   ├── analysis/           # Analysis guides
-│   ├── use-cases/          # Use case examples
-│   ├── data/              # Data handling guides
-│   └── support/           # Support documentation
-├── mkdocs.yml             # MkDocs configuration
-└── README.md              # This file
+│   ├── modules/            # Core module documentation
+│   │   ├── organizations/
+│   │   ├── import-export/
+│   │   ├── production/
+│   │   └── procurement/
+│   ├── tutorials/          # Tutorial guides
+│   │   ├── getting-started/
+│   │   └── advanced/
+│   ├── analysis/          # Analysis tools documentation
+│   ├── use-cases/         # Use case examples
+│   ├── data/             # Data management guides
+│   ├── api/              # API documentation
+│   └── support/          # Support resources
+├── overrides/            # Theme overrides
+└── mkdocs.yml           # MkDocs configuration
 ```
 
-## Version Control
+## Setup
 
-### Initial Setup
-
-1. Clone the repository:
+1. Install dependencies:
 ```bash
-git clone [repository-url]
-cd kazdata-docs
+pip install mkdocs-material
+pip install mkdocs-glightbox
+pip install mkdocs-minify-plugin
 ```
 
-2. Create new branch for changes:
+2. Run development server:
 ```bash
-git checkout -b [feature-branch]
+mkdocs serve
 ```
 
-### Regular Backups
-
-1. Stage changes:
+3. Build documentation:
 ```bash
-git add .
+mkdocs build
 ```
 
-2. Commit changes with descriptive message:
-```bash
-git commit -m "Updated [section name] documentation"
-```
+## Features
 
-3. Push changes:
-```bash
-git push origin [feature-branch]
-```
+- 📚 Comprehensive documentation
+- 🎓 Step-by-step tutorials
+- 💻 Code examples
+- 📊 Interactive diagrams
+- 🔍 Full-text search
+- 📱 Responsive design
+- 🌙 Dark/light mode
+- 📖 PDF export
+
+## Documentation Standards
+
+### File Organization
+
+- Use clear, descriptive filenames
+- Group related content in directories
+- Maintain consistent structure
+- Include README files in each section
+
+### Writing Style
+
+- Clear and concise
+- Task-focused
+- Example-driven
+- Properly formatted
+- Consistent terminology
+
+### Markdown Guidelines
+
+- Use headers properly (H1 > H2 > H3)
+- Include code blocks with language
+- Add descriptive links
+- Use lists and tables
+- Include diagrams where helpful
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run tests and build
+5. Submit pull request
+
+### Contribution Guidelines
+
+- Follow existing structure
+- Update navigation (mkdocs.yml)
+- Include documentation updates
+- Add tests if applicable
+- Update README if needed
 
 ## Development
 
 ### Local Development
 
-1. Install dependencies:
+1. Clone repository:
 ```bash
-pip install mkdocs mkdocs-material
+git clone https://github.com/yourusername/kazdata-docs.git
+cd kazdata-docs
 ```
 
-2. Start development server:
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Start development server:
 ```bash
 mkdocs serve
 ```
 
-3. View documentation at http://127.0.0.1:8000
+### Building
 
-### Building Documentation
-
-Generate static site:
+Build static site:
 ```bash
 mkdocs build
 ```
 
-The built site will be in the `site` directory.
+Output will be in `site/` directory.
 
-## Documentation Standards
+## Deployment
 
-### File Organization
-- Use clear, descriptive filenames
-- Maintain consistent directory structure
-- Group related content together
-- Keep files focused and concise
-- Use appropriate file extensions
+### Automatic Deployment
 
-### Content Guidelines
-- Write clear, concise content
-- Use consistent formatting
-- Include practical examples
-- Maintain logical structure
-- Regular updates and reviews
+Documentation is automatically deployed when changes are pushed to main branch.
 
-## Progress Tracking
+### Manual Deployment
 
-### Documentation Status
-- Track completed sections in commit messages
-- Use Git branches for major updates
-- Create pull requests for review
-- Tag versions for releases
-- Document ongoing work
+Deploy to GitHub Pages:
+```bash
+mkdocs gh-deploy
+```
 
-### Version History
-- Major versions: Significant updates
-- Minor versions: Content additions
-- Patch versions: Corrections
-- Development: Work in progress
-- Release candidates: Pre-release versions
+## Tools Used
 
-## Best Practices
-
-### Development Workflow
-1. Create feature branch
-2. Make changes locally
-3. Test with mkdocs serve
-4. Commit changes
-5. Create pull request
-
-### Content Management
-1. Regular commits
-2. Clear commit messages
-3. Branch for features
-4. Review before merge
-5. Keep history clean
-
-## Contributing
-
-1. Fork the repository
-2. Create feature branch
-3. Make changes
-4. Test locally
-5. Submit pull request
+- [MkDocs](https://www.mkdocs.org/) - Documentation framework
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - Theme
+- [MkDocs GLightbox](https://github.com/blueswen/mkdocs-glightbox) - Image plugin
+- [MkDocs Minify](https://github.com/byrnereese/mkdocs-minify-plugin) - Minification
 
 ## License
 
-[License details here]
+Copyright © 2024 KazDATA. All rights reserved.
+
+## Support
+
+For support with the documentation:
+1. Check existing issues
+2. Create new issue
+3. Contact documentation team
+4. Submit pull request
+
+## Acknowledgments
+
+Thanks to all contributors who have helped improve this documentation.

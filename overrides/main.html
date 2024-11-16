@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/extra.css' | url }}">
+{% endblock %}
+
+{% block announce %}
+  <a href="https://kazdata.kz">
+    Visit KazDATA Platform
+    <span class="twemoji">
+      {% include ".icons/material/arrow-right.svg" %}
+    </span>
+  </a>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+  {% if git_page_authors %}
+    <div class="md-source-date">
+      <small>
+        Authors: {{ git_page_authors | default('Not Available') }}
+      </small>
+    </div>
+  {% endif %}
+{% endblock %}

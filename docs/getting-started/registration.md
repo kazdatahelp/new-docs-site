@@ -1,70 +1,211 @@
-# Registration & Account Setup
+# Registration & Account
 
-This guide will walk you through the process of creating and setting up your KazDATA account.
+Learn how to register and set up your KazDATA account.
 
-## Creating Your Account
+## :material-account-plus: Registration Process
 
-1. Visit [member.kazdata.kz](https://member.kazdata.kz)
-2. Click "Register" or "Create Account"
-3. Fill in your details:
-   - Email address (business email preferred)
-   - Full name
-   - Company name
-   - Phone number
-   - Password (minimum 8 characters)
+### Steps to Register
 
-## Account Verification
+```mermaid
+graph TD
+    A[Start] --> B[Create Account]
+    B --> C[Verify Email]
+    C --> D[Complete Profile]
+    D --> E[Choose Plan]
+    E --> F[Access Platform]
+```
 
-1. Check your email for a verification link
-2. Click the link to verify your account
-3. Log in with your credentials
+### Required Information
 
-## Profile Setup
+| Field | Description | Example |
+|-------|-------------|---------|
+| Name | Full name | John Smith |
+| Email | Business email | john@company.com |
+| Company | Organization | Tech Solutions Ltd |
+| Phone | Contact number | +7 777 123 4567 |
+| Password | Secure password | ********** |
 
-### Company Information
-- Add your company details
-- Upload company documents (if required)
-- Verify business email domain
+## :material-email: Email Verification
 
-### User Preferences
-- Set preferred language
-- Configure notification settings
-- Set data export preferences
+### Verification Process
 
-## Account Types
+1. Submit registration
+    - Enter details
+    - Accept terms
+    - Create account
+    - Receive email
 
-### Trial Account
-- 7-day free trial
-- Access to basic features
-- Limited data export
+2. Verify email
+    - Open email
+    - Click link
+    - Confirm account
+    - Access platform
 
-### Full Access
-- Complete platform access
-- Unlimited searches
-- Full data export capabilities
-- Advanced analytics
+### Troubleshooting
 
-### Enterprise
-- Custom data solutions
-- API access
-- Multiple user accounts
-- Priority support
+- Check spam folder
+- Request new email
+- Contact support
+- Update email
+- Verify domain
+
+## :material-card-account-details: Profile Setup
+
+### Profile Information
+
+1. Basic details
+    - Name
+    - Title
+    - Department
+    - Location
+    - Language
+
+2. Company details
+    - Company name
+    - Industry
+    - Size
+    - Website
+    - Address
+
+### Profile Settings
+
+```yaml
+profile_settings:
+  notifications:
+    email: true
+    platform: true
+    reports: weekly
+  preferences:
+    language: en
+    timezone: Asia/Almaty
+    currency: KZT
+```
+
+## :material-shield-account: Account Security
+
+### Security Features
+
+1. Password requirements
+    - Minimum length
+    - Complexity
+    - Expiration
+    - History
+    - Recovery
+
+2. Two-factor authentication
+    - Email verification
+    - SMS codes
+    - Authenticator app
+    - Backup codes
+    - Recovery options
+
+### Security Settings
+
+```python
+def setup_security(account):
+    security = SecurityManager()
+    security.configure({
+        'two_factor': True,
+        'password_expiry': '90d',
+        'login_attempts': 5,
+        'session_timeout': '8h'
+    })
+```
+
+## :material-package-variant: Subscription Setup
+
+### Plan Selection
+
+1. Available plans
+    - Basic
+    - Professional
+    - Enterprise
+    - Custom
+
+2. Plan features
+    - Data access
+    - API calls
+    - Export limits
+    - Support level
+    - Custom features
+
+### Payment Options
+
+- Credit card
+- Bank transfer
+- Invoice
+- Annual billing
+- Auto-renewal
+
+## :material-cog: Account Settings
+
+### General Settings
+
+1. Account preferences
+    - Language
+    - Time zone
+    - Currency
+    - Date format
+    - Number format
+
+2. Notification settings
+    - Email alerts
+    - Platform notifications
+    - Report delivery
+    - System updates
+    - Security alerts
+
+### Team Management
+
+```python
+def manage_team(account):
+    team = TeamManager()
+    team.setup({
+        'roles': ['admin', 'editor', 'viewer'],
+        'permissions': {
+            'data_access': True,
+            'export': True,
+            'share': True
+        }
+    })
+```
+
+## :material-school: Getting Started
+
+### Initial Setup
+
+1. Platform tour
+    - Interface overview
+    - Basic features
+    - Quick search
+    - Export data
+    - Save results
+
+2. Learning resources
+    - [Tutorials](../tutorials/index.md)
+    - [User Guide](../index.md)
+    - [API Docs](../api/index.md)
+    - [Support](../support/contact.md)
+
+### First Steps
+
+- Complete profile
+- Configure settings
+- Explore features
+- Run test searches
+- Save projects
 
 ## Next Steps
 
-1. [Choose a subscription plan](subscription.md)
-2. [Learn the interface](interface.md)
-3. [Start using the platform](quick-start.md)
+1. [Platform Overview](platform-overview.md)
+2. [Quick Start Guide](quick-start.md)
+3. [Interface Guide](interface.md)
 
-## Security Recommendations
+## Additional Resources
 
-1. Use a strong password
-2. Enable two-factor authentication
-3. Keep your login credentials secure
-4. Log out after each session
+- [FAQ](faq.md)
+- [Best Practices](../data/best-practices.md)
+- [Support](../support/contact.md)
 
-## Need Help?
-
-- Check our [FAQ](faq.md)
-- Contact [support](../support/contact.md)
-- View [troubleshooting guide](../support/troubleshooting.md)
+!!! tip "Account Setup"
+    Complete your profile and security settings before starting to use the platform.

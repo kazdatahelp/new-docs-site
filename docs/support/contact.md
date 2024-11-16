@@ -1,141 +1,198 @@
 # Contact Support
 
-## Support Channels
+Get help and support for KazDATA platform.
 
-### Email Support
-- General inquiries: support@kazdata.kz
-- Technical support: tech@kazdata.kz
-- Sales inquiries: sales@kazdata.kz
+## :material-help-circle: Support Options
 
-### Phone Support
-- Kazakhstan: +7 (727) XXX-XXXX
-- Working hours: Monday-Friday, 9:00-18:00 (Astana time)
+### Contact Methods
 
-### Online Support
-- Live chat (available during business hours)
-- Support ticket system
-- Remote assistance (Enterprise customers)
+```mermaid
+graph TD
+    A[Support] --> B[Email]
+    A --> C[Phone]
+    A --> D[Chat]
+    A --> E[Ticket]
+    B --> F[Response]
+    C --> F
+    D --> F
+    E --> F
+```
 
-## Support Levels
+### Support Channels
 
-### Standard Support
-- Available with Basic and Professional plans
-- Email support
-- Response time: within 24 hours
-- Business hours only
+| Channel | Response Time | Hours |
+|---------|--------------|-------|
+| Email | 24 hours | 24/7 |
+| Phone | Immediate | 9-18 |
+| Chat | < 5 min | 24/7 |
+| Ticket | 48 hours | 24/7 |
 
-### Priority Support
-- Available with Professional plan
-- Email and phone support
-- Response time: within 4 hours
-- Extended business hours
+## :material-email: Email Support
 
-### Enterprise Support
-- Available with Enterprise plan
-- Dedicated account manager
-- 24/7 support availability
-- Response time: within 1 hour
-- Custom SLA options
+### Email Process
 
-## Before Contacting Support
+1. Send email
+    - support@kazdata.kz
+    - Include account
+    - Describe issue
+    - Add screenshots
 
-1. Check the [FAQ](../getting-started/faq.md)
-2. Review [troubleshooting guide](troubleshooting.md)
-3. Search documentation for similar issues
-4. Prepare relevant information:
-   - Account details
-   - Error messages
-   - Steps to reproduce
-   - Screenshots if applicable
+2. Get response
+    - Ticket number
+    - Initial reply
+    - Solution steps
+    - Follow-up
 
-## How to Submit a Support Request
+### Email Guidelines
 
-### Via Email
-1. Use your registered email address
-2. Include clear subject line
-3. Provide detailed description
-4. Attach relevant screenshots
-5. Include account information
+- Clear subject
+- Detailed description
+- Account details
+- Screenshots
+- Error messages
 
-### Via Support Portal
-1. Log in to your account
-2. Navigate to Support section
-3. Click "New Ticket"
-4. Fill in the ticket form
-5. Submit and track progress
+## :material-phone: Phone Support
 
-### Via Phone
-1. Have your account ID ready
-2. Call during business hours
-3. Follow phone menu options
-4. Speak with support agent
+### Phone Hours
 
-## What to Include in Your Request
+1. Business hours
+    - Monday-Friday
+    - 9:00-18:00
+    - Almaty time
+    - Holidays excluded
 
-### For Technical Issues
-- Detailed error message
-- Steps to reproduce
-- Browser and OS version
-- Time of occurrence
-- Recent account changes
+2. Emergency support
+    - 24/7 availability
+    - Critical issues
+    - System outages
+    - Security incidents
 
-### For Data Questions
-- Data type (Organizations/Import/Export/etc.)
-- Search criteria used
-- Expected vs actual results
-- Sample data if applicable
-- Use case description
+### Contact Numbers
 
-### For Account Issues
-- Account email
-- Subscription type
-- Payment information
-- Error screenshots
-- Recent account changes
+- General: +7 727 123 4567
+- Technical: +7 727 123 4568
+- Emergency: +7 727 123 4569
+- International: +1 234 567 8900
 
-## Response Times
+## :material-chat: Live Chat
 
-| Priority | Standard Support | Priority Support | Enterprise Support |
-|----------|-----------------|------------------|-------------------|
-| Critical | 24 hours | 4 hours | 1 hour |
-| High | 48 hours | 8 hours | 2 hours |
-| Medium | 72 hours | 24 hours | 4 hours |
-| Low | 96 hours | 48 hours | 8 hours |
+### Chat Support
 
-## Escalation Process
+1. Chat features
+    - Real-time help
+    - File sharing
+    - Screen sharing
+    - Chat history
+    - Transcripts
 
-### When to Escalate
-- No response within SLA
-- Unsatisfactory resolution
-- Critical business impact
-- Security concerns
+2. Chat availability
+    - 24/7 support
+    - Multiple languages
+    - Queue system
+    - Priority support
 
-### How to Escalate
-1. Request escalation via email
-2. Contact account manager
-3. Use emergency hotline (Enterprise)
-4. Submit formal complaint
+### Chat Guidelines
 
-## Training & Support Resources
+```yaml
+chat_guidelines:
+  preparation:
+    - Account ready
+    - Issue details
+    - Screenshots
+    - Error messages
+  etiquette:
+    - Clear communication
+    - Patient waiting
+    - Respectful interaction
+    - Follow instructions
+```
+
+## :material-ticket: Support Tickets
+
+### Ticket System
+
+1. Create ticket
+    - Portal login
+    - Issue category
+    - Description
+    - Priority level
+    - Attachments
+
+2. Track progress
+    - Status updates
+    - Comments
+    - Resolution
+    - Feedback
+    - History
+
+### Priority Levels
+
+| Level | Response | Description |
+|-------|----------|-------------|
+| P1 | 1 hour | System down |
+| P2 | 4 hours | Major issue |
+| P3 | 24 hours | Minor issue |
+| P4 | 48 hours | Question |
+
+## :material-school: Learning Resources
 
 ### Documentation
-- [User guides](../index.md)
-- [Video tutorials](../tutorials/)
-- [Best practices](../data/best-practices.md)
-- [API documentation](../api/)
 
-### Training Options
-- Online webinars
-- Custom training sessions
-- On-site training (Enterprise)
-- Documentation workshops
+1. User guides
+    - [User Guide](../index.md)
+    - [Tutorials](../tutorials/index.md)
+    - [API Documentation](../api/index.md)
+    - [Best Practices](../data/best-practices.md)
 
-## Feedback & Suggestions
+2. Training materials
+    - Video tutorials
+    - Webinars
+    - Workshops
+    - Case studies
 
-We value your feedback! Help us improve by:
-- Participating in surveys
-- Suggesting features
-- Reporting issues
-- Sharing success stories
+### Self-Help
 
-Send feedback to: feedback@kazdata.kz
+- Knowledge base
+- FAQ section
+- Community forum
+- Video library
+- Code samples
+
+## :material-frequently-asked-questions: Common Issues
+
+### Quick Solutions
+
+1. Access issues
+    - Password reset
+    - Account unlock
+    - Permission fix
+    - Session clear
+
+2. Data issues
+    - Cache clear
+    - Data refresh
+    - Export retry
+    - Format fix
+
+### Troubleshooting
+
+- Error codes
+- Common problems
+- Quick fixes
+- Workarounds
+- Prevention
+
+## Next Steps
+
+1. [Troubleshooting Guide](troubleshooting.md)
+2. [Common Issues](issues.md)
+3. [System Updates](updates.md)
+
+## Additional Resources
+
+- [FAQ](../getting-started/faq.md)
+- [Best Practices](../data/best-practices.md)
+- [Platform Overview](../getting-started/platform-overview.md)
+
+!!! tip "Quick Response"
+    Include your account details and clear issue description for faster support.

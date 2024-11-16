@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #f5f6f7; }
+    .header { fill: #4051b5; }
+    .text { font: 14px sans-serif; fill: #333; }
+    .title { font: bold 18px sans-serif; fill: white; }
+    .panel { fill: white; stroke: #ddd; }
+    .status { fill: #4caf50; }
+    .status-text { font: 12px sans-serif; fill: white; }
+    .table-header { fill: #f5f6f7; }
+    .table-row { fill: white; }
+  </style>
+  
+  <!-- Background -->
+  <rect class="bg" width="800" height="400"/>
+  
+  <!-- Header -->
+  <rect class="header" width="800" height="50"/>
+  <text class="title" x="20" y="32">Procurement Dashboard</text>
+  
+  <!-- Filters Panel -->
+  <rect class="panel" x="20" y="70" width="760" height="60" rx="4"/>
+  <text class="text" x="40" y="105">Search Tenders</text>
+  
+  <!-- Table Panel -->
+  <rect class="panel" x="20" y="150" width="760" height="230" rx="4"/>
+  
+  <!-- Table Header -->
+  <rect class="table-header" x="30" y="160" width="740" height="30"/>
+  <text class="text" x="40" y="180">Tender ID</text>
+  <text class="text" x="160" y="180">Title</text>
+  <text class="text" x="400" y="180">Status</text>
+  <text class="text" x="520" y="180">Amount</text>
+  <text class="text" x="640" y="180">Deadline</text>
+  
+  <!-- Table Rows -->
+  <rect class="table-row" x="30" y="200" width="740" height="40"/>
+  <rect class="table-row" x="30" y="250" width="740" height="40"/>
+  <rect class="table-row" x="30" y="300" width="740" height="40"/>
+  
+  <!-- Status Badges -->
+  <rect class="status" x="400" y="210" width="80" height="20" rx="10"/>
+  <text class="status-text" x="420" y="224">Active</text>
+  
+  <rect class="status" x="400" y="260" width="80" height="20" rx="10"/>
+  <text class="status-text" x="420" y="274">Active</text>
+  
+  <rect class="status" x="400" y="310" width="80" height="20" rx="10"/>
+  <text class="status-text" x="420" y="324">Active</text>
+</svg>

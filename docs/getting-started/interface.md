@@ -1,140 +1,229 @@
 # Interface Overview
 
-Learn how to navigate the KazDATA platform efficiently with this interface guide.
+Learn how to navigate and use the KazDATA platform interface effectively.
 
-## Main Navigation
+## Main Interface Components
 
-### Top Bar
-- **Logo**: Click to return to dashboard
-- **Search Bar**: Quick global search
-- **User Menu**: Account settings and logout
-- **Help**: Access documentation and support
+### :material-view-dashboard: Dashboard Layout
 
-### Main Menu
-- **Organizations**: Company database access
-- **Import/Export**: Trade data analysis
-- **Production**: Manufacturing statistics
-- **Procurement**: Procurement data and analysis
+```mermaid
+graph TD
+    A[Main Dashboard] --> B[Top Navigation]
+    A --> C[Side Menu]
+    A --> D[Content Area]
+    A --> E[Quick Actions]
+    B --> F[Search]
+    B --> G[User Menu]
+    C --> H[Module Selection]
+    D --> I[Data Display]
+    E --> J[Common Tasks]
+```
 
-## Dashboard Layout
+### :material-toolbar: Top Navigation Bar
 
-### Quick Access Panel
-- Recent searches
-- Saved projects
-- Favorite companies
-- Quick filters
+- Global search
+- Module switcher
+- Notifications
+- User profile
+- Help center
+- Quick actions
 
-### Data Overview
-- Statistics summary
-- Recent updates
-- Data coverage
-- System notifications
+### :material-menu: Side Navigation
+
+- Module selection
+- Saved searches
+- Recent activities
+- Favorites
+- Settings access
 
 ## Module Interfaces
 
-### Organizations Module
-![Organizations Interface](../assets/images/interface-organizations.png)
-1. Search filters panel
-2. Results list
-3. Detail view
-4. Export options
+### :material-office-building: Organizations Module
 
-### Import/Export Module
-![Import/Export Interface](../assets/images/interface-trade.png)
-1. Product search
-2. Country filters
-3. Time period selection
-4. Data visualization
+<figure markdown>
+  ![Organizations Interface](../assets/images/interface-organizations.svg)
+  <figcaption>Organizations Module Interface</figcaption>
+</figure>
 
-### Production Module
-![Production Interface](../assets/images/interface-production.png)
-1. Industry categories
-2. Volume metrics
-3. Trend analysis
-4. Regional breakdown
-
-### Procurement Module
-![Procurement Interface](../assets/images/interface-procurement.png)
-1. Procurement types
-2. Buyer/supplier search
-3. Price analysis
-4. Timeline view
-
-## Common Elements
-
-### Search Filters
-- Text search
-- Date ranges
-- Category filters
-- Location filters
-- Advanced options
-
-### Data Tables
-- Sortable columns
-- Bulk selection
-- Custom views
+Key elements:
+- Company search
+- Advanced filters
+- Results grid
+- Detail view
 - Export options
 
-### Data Visualization
-- Charts and graphs
-- Maps
-- Trend lines
-- Comparison tools
+### :material-swap-horizontal: Trade Module
 
-## Keyboard Shortcuts
+<figure markdown>
+  ![Trade Interface](../assets/images/interface-trade.svg)
+  <figcaption>Trade Analytics Interface</figcaption>
+</figure>
 
-| Action | Windows/Linux | Mac |
-|--------|--------------|-----|
-| Global Search | Ctrl + / | Cmd + / |
-| Save View | Ctrl + S | Cmd + S |
-| Export Data | Ctrl + E | Cmd + E |
-| New Project | Ctrl + N | Cmd + N |
+Features:
+- Trade data view
+- Country selection
+- Product categories
+- Time period selector
+- Analysis tools
+
+### :material-factory: Production Module
+
+<figure markdown>
+  ![Production Interface](../assets/images/interface-production.svg)
+  <figcaption>Production Statistics Interface</figcaption>
+</figure>
+
+Components:
+- Industry sectors
+- Production metrics
+- Regional view
+- Time series
+- Data visualization
+
+### :material-gavel: Procurement Module
+
+<figure markdown>
+  ![Procurement Interface](../assets/images/interface-procurement.svg)
+  <figcaption>Procurement Dashboard Interface</figcaption>
+</figure>
+
+Elements:
+- Tender search
+- Contract data
+- Price analysis
+- Supplier info
+- Status tracking
+
+## Common Interface Elements
+
+### :material-magnify: Search Interface
+
+1. Global search bar
+2. Advanced filters
+3. Saved searches
+4. Recent searches
+5. Search suggestions
+
+### :material-filter: Filters
+
+- Quick filters
+- Advanced filters
+- Custom filters
+- Filter combinations
+- Filter templates
+
+### :material-table: Data Grids
+
+Features:
+- Column sorting
+- Custom views
+- Data grouping
+- Row selection
+- Bulk actions
+
+### :material-chart-box: Visualizations
+
+Types:
+- Line charts
+- Bar graphs
+- Pie charts
+- Heat maps
+- Geographic maps
+
+## Interface Customization
+
+### :material-cog: User Preferences
+
+Customize your experience:
+
+1. Theme selection
+    - Light mode
+    - Dark mode
+    - System default
+2. Layout options
+    - Compact view
+    - Comfortable view
+    - Custom spacing
+3. Display settings
+    - Font size
+    - Color scheme
+    - Language
+
+### :material-view-grid: Dashboard Customization
+
+Arrange your dashboard:
+
+- Widget placement
+- Quick access tools
+- Favorite reports
+- Recent items
+- Custom shortcuts
+
+## Navigation Tips
+
+### :material-keyboard: Keyboard Shortcuts
+
+| Action | Windows/Linux | macOS |
+|--------|--------------|-------|
+| Global Search | Ctrl + K | ⌘ + K |
+| Module Switch | Ctrl + M | ⌘ + M |
+| Save | Ctrl + S | ⌘ + S |
+| Export | Ctrl + E | ⌘ + E |
 | Help | F1 | F1 |
 
-## Customization Options
+### :material-gesture-tap: Quick Actions
 
-### User Preferences
-- Language settings
-- Date format
-- Number format
-- Default views
+Access common tasks:
+- New search
+- Export data
+- Save view
+- Share results
+- Generate report
 
-### Workspace Layout
-- Column arrangement
-- Panel visibility
-- Chart preferences
-- Default filters
+## Data Management
 
-## Mobile Interface
+### :material-export: Export Options
 
-### Responsive Design
-- Optimized for tablets and phones
-- Touch-friendly controls
-- Simplified navigation
-- Essential features
+1. Select data
+2. Choose format
+3. Configure options
+4. Export file
+5. Download results
 
-### Mobile-Specific Features
-- Quick filters
-- Simplified search
-- Basic data views
-- Key actions
+### :material-content-save: Saving Work
 
-## Tips & Tricks
+- Save searches
+- Save views
+- Save reports
+- Save templates
+- Save preferences
 
-1. Use saved searches for frequent queries
-2. Customize columns for efficient viewing
-3. Set up default filters for your needs
-4. Use keyboard shortcuts for speed
-5. Save important views as projects
+## Best Practices
 
-## Next Steps
+### :material-lightbulb: Efficiency Tips
 
-- Try the [Quick Start Guide](quick-start.md)
-- Learn about [Data Export](../data/export.md)
-- Explore [Best Practices](../data/best-practices.md)
+1. Use keyboard shortcuts
+2. Save common searches
+3. Customize your dashboard
+4. Create templates
+5. Use quick filters
 
-## Need Help?
+### :material-check-circle: Recommended Workflows
 
-- Check our [FAQ](faq.md)
-- Contact [support](../support/contact.md)
-- View [troubleshooting guide](../support/troubleshooting.md)
+```mermaid
+graph LR
+    A[Search] --> B[Filter]
+    B --> C[Analyze]
+    C --> D[Export]
+    D --> E[Save]
+```
+
+## Related Resources
+
+- [Quick Start Guide](quick-start.md)
+- [Data Export Guide](../data/export.md)
+- [Best Practices](../data/best-practices.md)
+- [FAQ](faq.md)
+
+!!! tip "Interface Updates"
+    The interface may be updated regularly with new features and improvements. Check the [Updates](../support/updates.md) page for the latest changes.

@@ -1,39 +1,114 @@
 site_name: KazDATA Documentation
 site_description: Official documentation for KazDATA platform
+site_url: https://help.kazdata.kz
+
+# Theme configuration
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.indexes
+    - navigation.footer
     - search.highlight
     - search.share
     - search.suggest
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+    - toc.integrate
   palette:
-    - scheme: default
-      primary: blue
-      accent: blue
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Switch to dark mode
-    - scheme: slate
-      primary: blue
-      accent: blue
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/logo.svg
+  logo: assets/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  language: en
 
+# Extensions
 markdown_extensions:
+  # Python Markdown
+  - abbr
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.tabbed
-  - pymdownx.tasklist
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
   - toc:
       permalink: true
+      title: On this page
+      toc_depth: 3
+  
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
+# Plugins
+plugins:
+  - search
+  - tags
+  - glightbox:
+      auto_caption: true
+      caption_position: bottom
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+
+# Navigation
 nav:
   - Home: index.md
   - Getting Started:
@@ -94,21 +169,54 @@ nav:
     - Working with Data: data/working.md
     - Best Practices: data/best-practices.md
   
+  - Tutorials:
+    - Overview: tutorials/index.md
+    - Getting Started:
+      - Introduction: tutorials/getting-started/intro.md
+      - First Steps: tutorials/getting-started/first-steps.md
+      - Search Guide: tutorials/getting-started/search.md
+      - Data Export: tutorials/getting-started/export.md
+      - Save & Organize: tutorials/getting-started/saving.md
+    - Advanced Features:
+      - Advanced Search: tutorials/advanced/search.md
+      - Advanced Export: tutorials/advanced/export.md
+      - Data Integration: tutorials/advanced/integration.md
+      - API Integration: tutorials/advanced/api.md
+      - Data Visualization: tutorials/advanced/visualization.md
+      - Statistical Analysis: tutorials/advanced/statistics.md
+      - Report Generation: tutorials/advanced/reports.md
+      - Data Organization: tutorials/advanced/organization.md
+  
+  - API:
+    - Overview: api/index.md
+    - Rate Limits: api/rate-limits.md
+    - Changelog: api/changelog.md
+  
   - Support:
     - Troubleshooting: support/troubleshooting.md
     - Common Issues: support/issues.md
     - Contact: support/contact.md
     - Updates: support/updates.md
 
-plugins:
-  - search
-  - tags
-
+# Customization
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/yourusername
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/yourusername
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - reject
+      - manage
+  generator: false
 
+# Copyright
 copyright: Copyright &copy; 2024 KazDATA

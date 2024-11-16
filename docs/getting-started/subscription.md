@@ -1,105 +1,196 @@
 # Subscription Plans
 
-KazDATA offers flexible subscription plans to meet different business needs and usage requirements.
-
-## Available Plans
-
-### Basic Plan
-- **Price**: 50,000 ₸/month
-- **Features**:
-  - Access to Organizations database
-  - Basic search functionality
-  - Limited data export (100 records/month)
-  - Standard support
-
-### Professional Plan
-- **Price**: 100,000 ₸/month
-- **Features**:
-  - Full Organizations database access
-  - Import/Export data access
-  - Advanced search filters
-  - Extended data export (1000 records/month)
-  - Priority support
-  - Market analysis tools
-
-### Enterprise Plan
-- **Price**: Custom pricing
-- **Features**:
-  - Complete platform access
-  - Unlimited data export
-  - API access
-  - Custom data solutions
-  - Dedicated account manager
-  - Premium support
-  - Multiple user accounts
+Choose the right KazDATA subscription plan for your business needs.
 
 ## Plan Comparison
 
+### :material-compare: Feature Overview
+
 | Feature | Basic | Professional | Enterprise |
 |---------|-------|--------------|------------|
-| Organizations Database | ✓ | ✓ | ✓ |
-| Import/Export Data | - | ✓ | ✓ |
-| Production Data | - | ✓ | ✓ |
-| Procurement Data | - | ✓ | ✓ |
-| API Access | - | - | ✓ |
-| Data Export Limit | 100/month | 1000/month | Unlimited |
-| User Accounts | 1 | 2 | Custom |
-| Support Level | Standard | Priority | Premium |
+| Company Data | ✓ | ✓ | ✓ |
+| Search Filters | Basic | Advanced | Custom |
+| Export Limit | 100/month | 1000/month | Unlimited |
+| API Access | - | Limited | Full |
+| Team Members | 1 | Up to 5 | Custom |
+| Support | Email | Priority | Dedicated |
+| Custom Features | - | - | ✓ |
+| Price | Contact Sales | Contact Sales | Contact Sales |
+
+## Plan Details
+
+### :material-account: Basic Plan
+
+Perfect for individual users and small businesses.
+
+#### Features
+- Basic company information
+- Standard search capabilities
+- Limited data export
+- Email support
+- Single user access
+
+#### Best For
+- Market research
+- Basic company verification
+- Individual use
+- Small businesses
+- Starting users
+
+### :material-account-tie: Professional Plan
+
+Ideal for growing businesses and teams.
+
+#### Features
+- Advanced company data
+- Enhanced search filters
+- Increased export limits
+- Priority support
+- Team collaboration
+- Basic API access
+
+#### Best For
+- Business development
+- Market analysis
+- Sales teams
+- Research departments
+- Data integration
+
+### :material-office-building: Enterprise Plan
+
+Complete solution for large organizations.
+
+#### Features
+- Full data access
+- Custom search options
+- Unlimited exports
+- Dedicated support
+- Custom team size
+- Full API access
+- Custom features
+
+#### Best For
+- Large organizations
+- Custom solutions
+- System integration
+- Multiple departments
+- Advanced analytics
+
+## Additional Services
+
+### :material-api: API Access
+
+```mermaid
+graph TD
+    A[API Access] --> B[Basic Integration]
+    A --> C[Full Integration]
+    B --> D[Limited Calls]
+    C --> E[Unlimited Calls]
+    C --> F[Custom Endpoints]
+```
+
+### :material-account-group: Team Collaboration
+
+```mermaid
+graph TD
+    A[Team Access] --> B[Shared Projects]
+    A --> C[User Management]
+    B --> D[Collaborative Analysis]
+    C --> E[Role Assignment]
+```
 
 ## Payment Options
 
-### Monthly Subscription
-- Pay month-to-month
-- Cancel anytime
-- Credit card or bank transfer
+### :material-credit-card: Payment Methods
 
-### Annual Subscription
-- 20% discount
-- Pay once yearly
-- Additional benefits
+- Credit/Debit cards
+- Bank transfer
+- Electronic payments
+- Corporate accounts
+- Manual invoicing
 
-### Enterprise Agreements
-- Custom payment terms
-- Volume discounts
-- Flexible billing options
+### :material-calendar: Billing Cycles
 
-## How to Subscribe
+- Monthly subscription
+- Annual subscription (save 20%)
+- Custom billing periods
+- Enterprise agreements
 
-1. Choose your plan
-2. Click "Subscribe" on the pricing page
-3. Select payment method
-4. Complete payment
-5. Access activated immediately
+## Special Offers
+
+### :material-gift: Trial Access
+
+!!! tip "Free Trial"
+    Get 7 days of Professional plan access to explore all features.
+
+### :material-percent: Discounts
+
+- Annual subscription discount
+- Non-profit organization discount
+- Educational institution discount
+- Startup program
+- Volume licensing
+
+## Enterprise Solutions
+
+### :material-cog: Custom Features
+
+- Custom data integration
+- Specialized reports
+- Dedicated infrastructure
+- Custom API endpoints
+- Enhanced security
+
+### :material-shield: Enterprise Support
+
+- Dedicated account manager
+- 24/7 priority support
+- Custom training
+- Technical consultation
+- Implementation assistance
 
 ## Subscription Management
 
-### Upgrade Plan
-1. Go to Account Settings
-2. Select "Subscription"
-3. Choose "Upgrade Plan"
-4. Select new plan
-5. Confirm upgrade
+### :material-cog: Managing Your Plan
 
-### Cancel Subscription
-1. Go to Account Settings
-2. Select "Subscription"
-3. Choose "Cancel Plan"
-4. Provide feedback (optional)
-5. Confirm cancellation
+1. Access subscription settings
+2. View current plan
+3. Change subscription
+4. Update billing
+5. View usage statistics
 
-## FAQ
+### :material-history: Usage Monitoring
 
-### Can I change plans?
-Yes, you can upgrade or downgrade your plan at any time.
+- Track data exports
+- Monitor API calls
+- View team activity
+- Check search history
+- Analyze usage patterns
 
-### Is there a free trial?
-Yes, we offer a 7-day free trial of the Professional plan.
+## Support & Resources
 
-### How do I get enterprise pricing?
-Contact our [sales team](../support/contact.md) for enterprise pricing.
+### :material-help: Getting Help
 
-## Need Help?
+- [Contact Support](../support/contact.md)
+- [FAQ](faq.md)
+- [Documentation](../index.md)
+- Sales consultation
+- Technical support
 
-- Contact [support](../support/contact.md)
-- View [troubleshooting guide](../support/troubleshooting.md)
-- Check [FAQ](faq.md)
+### :material-school: Training Resources
+
+- Platform tutorials
+- Best practices guides
+- API documentation
+- Use case examples
+- Video training
+
+## Next Steps
+
+1. [Register Account](registration.md)
+2. Choose your plan
+3. [Start Quick Tutorial](quick-start.md)
+4. [Explore Features](platform-overview.md)
+
+!!! info "Need Help Choosing?"
+    Contact our sales team for a personalized consultation and plan recommendation.

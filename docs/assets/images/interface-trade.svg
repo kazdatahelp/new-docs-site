@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #f5f6f7; }
+    .header { fill: #4051b5; }
+    .text { font: 14px sans-serif; fill: #333; }
+    .title { font: bold 18px sans-serif; fill: white; }
+    .panel { fill: white; stroke: #ddd; }
+    .chart { fill: none; stroke: #4051b5; stroke-width: 2; }
+    .grid { stroke: #eee; stroke-width: 1; }
+  </style>
+  
+  <!-- Background -->
+  <rect class="bg" width="800" height="400"/>
+  
+  <!-- Header -->
+  <rect class="header" width="800" height="50"/>
+  <text class="title" x="20" y="32">Trade Analytics</text>
+  
+  <!-- Control Panel -->
+  <rect class="panel" x="20" y="70" width="200" height="310" rx="4"/>
+  <text class="text" x="40" y="100">Controls</text>
+  
+  <!-- Chart Area -->
+  <rect class="panel" x="240" y="70" width="540" height="310" rx="4"/>
+  
+  <!-- Sample Chart -->
+  <g transform="translate(260,90)">
+    <!-- Grid -->
+    <line class="grid" x1="0" y1="0" x2="500" y2="0"/>
+    <line class="grid" x1="0" y1="50" x2="500" y2="50"/>
+    <line class="grid" x1="0" y1="100" x2="500" y2="100"/>
+    <line class="grid" x1="0" y1="150" x2="500" y2="150"/>
+    
+    <!-- Chart Line -->
+    <path class="chart" d="M0,150 C100,100 200,120 300,80 S400,60 500,30"/>
+  </g>
+  
+  <!-- Labels -->
+  <text class="text" x="260" y="90">Trade Volume</text>
+</svg>
