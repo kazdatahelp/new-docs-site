@@ -1,0 +1,114 @@
+site_name: KazDATA Documentation
+site_description: Official documentation for KazDATA platform
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Platform Overview: getting-started/platform-overview.md
+    - Quick Start Guide: getting-started/quick-start.md
+    - Registration & Account: getting-started/registration.md
+    - Subscription Plans: getting-started/subscription.md
+    - Interface Overview: getting-started/interface.md
+    - FAQ: getting-started/faq.md
+  
+  - Core Modules:
+    - Organizations:
+      - Overview: modules/organizations/overview.md
+      - Search Features: modules/organizations/search.md
+      - Company Profiles: modules/organizations/profiles.md
+      - Contact Database: modules/organizations/contacts.md
+      - Data Export: modules/organizations/export.md
+    
+    - Import/Export:
+      - Overview: modules/import-export/overview.md
+      - Import Analysis: modules/import-export/import.md
+      - Export Analysis: modules/import-export/export.md
+      - Country Analysis: modules/import-export/countries.md
+      - Product Search: modules/import-export/products.md
+      - Trade Dynamics: modules/import-export/dynamics.md
+    
+    - Production:
+      - Overview: modules/production/overview.md
+      - Industry Categories: modules/production/categories.md
+      - Volume Analysis: modules/production/volume.md
+      - Data Export: modules/production/export.md
+    
+    - Procurement:
+      - Overview: modules/procurement/overview.md
+      - Database Info: modules/procurement/database.md
+      - Methods: modules/procurement/methods.md
+      - Price Analysis: modules/procurement/price.md
+      - Seasonal Analysis: modules/procurement/seasonal.md
+      - Reports: modules/procurement/reports.md
+  
+  - Analysis Tools:
+    - Market Size: analysis/market-size.md
+    - Competition: analysis/competition.md
+    - Price Analysis: analysis/price.md
+    - Regional Analysis: analysis/regional.md
+    - Trend Analysis: analysis/trends.md
+  
+  - Use Cases:
+    - Market Research: use-cases/market-research.md
+    - Finding Partners: use-cases/partners.md
+    - Competition Analysis: use-cases/competition.md
+    - Price Monitoring: use-cases/price-monitoring.md
+    - Industry Analysis: use-cases/industry.md
+  
+  - Data Management:
+    - Export Options: data/export.md
+    - File Formats: data/formats.md
+    - Working with Data: data/working.md
+    - Best Practices: data/best-practices.md
+  
+  - Support:
+    - Troubleshooting: support/troubleshooting.md
+    - Common Issues: support/issues.md
+    - Contact: support/contact.md
+    - Updates: support/updates.md
+
+plugins:
+  - search
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourusername
+
+copyright: Copyright &copy; 2024 KazDATA
