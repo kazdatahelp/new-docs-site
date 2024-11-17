@@ -7,41 +7,35 @@ theme:
   name: material
   custom_dir: overrides
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - navigation.tracking
     - navigation.instant
+    - navigation.tracking
+    - navigation.sections
     - navigation.indexes
-    - navigation.footer
+    - navigation.top
     - search.highlight
     - search.share
     - search.suggest
-    - content.tabs.link
     - content.code.copy
-    - content.code.annotate
-    - toc.follow
-    - toc.integrate
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Inter
+    code: JetBrains Mono
   favicon: assets/logo.svg
   logo: assets/logo.svg
   icon:
@@ -52,7 +46,6 @@ theme:
 
 # Extensions
 markdown_extensions:
-  # Python Markdown
   - abbr
   - admonition
   - attr_list
@@ -64,8 +57,6 @@ markdown_extensions:
       permalink: true
       title: On this page
       toc_depth: 3
-  
-  # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -205,17 +196,6 @@ extra:
       link: https://github.com/yourusername
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/yourusername
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-    actions:
-      - accept
-      - reject
-      - manage
   generator: false
 
 # Copyright

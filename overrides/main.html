@@ -2,15 +2,20 @@
 
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/extra.css' | url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 {% endblock %}
 
 {% block announce %}
-  <a href="https://kazdata.kz">
-    Visit KazDATA Platform
-    <span class="twemoji">
-      {% include ".icons/material/arrow-right.svg" %}
-    </span>
-  </a>
+  <div class="md-announce">
+    <div class="md-announce__inner md-grid">
+      <a href="https://kazdata.kz" class="md-announce__button">
+        Visit KazDATA Platform
+        <span class="twemoji">
+          {% include ".icons/material/arrow-right.svg" %}
+        </span>
+      </a>
+    </div>
+  </div>
 {% endblock %}
 
 {% block content %}
@@ -18,8 +23,30 @@
   {% if git_page_authors %}
     <div class="md-source-date">
       <small>
-        Authors: {{ git_page_authors | default('Not Available') }}
+        Last updated by {{ git_page_authors | default('Not Available') }}
+        {% if page.meta.git_revision_date_localized %}
+          on {{ page.meta.git_revision_date_localized }}
+        {% endif %}
       </small>
     </div>
   {% endif %}
+{% endblock %}
+
+{% block footer %}
+  <footer class="md-footer">
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          {% if config.copyright %}
+            <div class="md-footer-copyright__highlight">
+              {{ config.copyright }}
+            </div>
+          {% endif %}
+        </div>
+        {% if config.extra.social %}
+          {% include "partials/social.html" %}
+        {% endif %}
+      </div>
+    </div>
+  </footer>
 {% endblock %}
