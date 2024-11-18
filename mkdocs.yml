@@ -10,38 +10,32 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
+    - navigation.expand
     - navigation.indexes
     - navigation.top
+    - toc.follow
     - search.highlight
     - search.share
     - search.suggest
     - content.code.copy
   palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
+    - scheme: default
+      primary: blue
+      accent: blue
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-7
         name: Switch to dark mode
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
+    - scheme: slate
+      primary: blue
+      accent: blue
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Inter
-    code: JetBrains Mono
+    text: Roboto
+    code: Roboto Mono
   favicon: assets/logo.svg
   logo: assets/logo.svg
-  icon:
-    repo: fontawesome/brands/github
-    edit: material/pencil
-    view: material/eye
   language: en
 
 # Extensions
