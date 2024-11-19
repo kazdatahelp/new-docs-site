@@ -1,193 +1,81 @@
 # Competition Analysis
 
-Learn how to analyze competitive landscapes and market dynamics using KazDATA's comprehensive data and analysis tools.
+## Overview
 
-## Market Structure
+Competition analysis in KazDATA helps you understand the competitive landscape and market dynamics in Kazakhstan's business environment.
 
-### Industry Overview
-- Market size
-- Growth rate
-- Market segments
-- Value chain
-- Industry lifecycle
+## Analysis Tools
 
-### Competition Level
-- Number of competitors
-- Market concentration
-- Market shares
-- Entry barriers
-- Exit barriers
+### Company Comparison
+- Market share analysis
+- Financial indicators
+- Product portfolios
+- Geographic presence
 
-## Competitor Analysis
+### Market Position Assessment
+1. Competitor identification
+2. Strength and weakness analysis
+3. Market share calculation
+4. Competitive advantage evaluation
 
-### Basic Information
+## Data Sources
+
+### Primary Data
 - Company profiles
-- Market position
-- Geographic presence
-- Product portfolio
-- Target markets
+- Financial reports
+- Product catalogs
+- Public statements
 
-### Performance Metrics
-- Market share
-- Revenue growth
-- Profitability
-- Efficiency
-- Innovation rate
-
-## Strategic Groups
-
-### Group Identification
-- Strategic dimensions
-- Group mapping
-- Mobility barriers
-- Strategic distance
-- Group dynamics
-
-### Group Analysis
-- Performance comparison
-- Strategic positioning
-- Competitive advantage
-- Resource allocation
-- Market focus
-
-## Market Dynamics
-
-### Competitive Forces
-- Supplier power
-- Buyer power
-- New entrants
-- Substitutes
-- Rivalry intensity
-
-### Market Evolution
-- Industry growth
-- Technology change
-- Regulation impact
-- Market trends
-- Future scenarios
-
-## Competitive Advantage
-
-### Source Analysis
-- Cost leadership
-- Differentiation
-- Focus strategy
-- Innovation
-- Market access
-
-### Sustainability
-- Resource base
-- Capabilities
-- Core competencies
-- Strategic assets
-- Market position
-
-## Performance Analysis
-
-### Financial Metrics
-- Revenue
-- Profitability
-- Growth rates
-- Market share
-- Efficiency ratios
-
-### Operational Metrics
-- Production capacity
-- Resource utilization
-- Quality metrics
-- Innovation rate
-- Market coverage
-
-## Market Intelligence
-
-### Data Sources
-- Company reports
+### Secondary Data
+- Industry reports
 - Market surveys
-- Industry studies
+- News and media
 - Expert opinions
-- News sources
 
-### Analysis Methods
-- Trend analysis
-- Pattern recognition
-- Comparative study
-- Scenario planning
-- Strategic mapping
+## Analysis Methods
 
-## Strategic Analysis
+### Quantitative Analysis
+- Market share calculations
+- Financial ratio analysis
+- Growth rate comparison
+- Price analysis
 
-### Tools and Methods
-- SWOT analysis
-- Porter's Five Forces
-- Value chain analysis
-- Strategic mapping
-- Scenario planning
+### Qualitative Analysis
+- Business strategy assessment
+- Product differentiation
+- Brand positioning
+- Customer relationships
 
-### Strategic Options
-- Market positioning
-- Growth strategies
-- Competitive moves
-- Resource allocation
-- Market development
+## Practical Applications
 
-## Visualization Tools
+### Strategic Planning
+1. Market entry strategy
+2. Product development
+3. Pricing strategy
+4. Distribution channels
 
-### Charts and Graphs
-- Market share
-- Growth trends
-- Performance comparison
-- Strategic groups
-- Competitive positioning
-
-### Maps and Diagrams
-- Geographic presence
-- Market coverage
-- Strategic mapping
-- Value chains
-- Network analysis
-
-## Report Generation
-
-### Standard Reports
-- Market overview
-- Competitor profiles
-- Strategic analysis
-- Performance metrics
-- Future outlook
-
-### Custom Reports
-- Segment focus
-- Regional analysis
-- Time series
-- Combined metrics
-- Special studies
+### Risk Assessment
+- Competitive threats
+- Market saturation
+- Entry barriers
+- Regulatory risks
 
 ## Best Practices
 
-### Analysis Planning
-1. Define scope
-2. Select methods
-3. Gather data
-4. Validate results
-5. Document findings
+### Data Collection
+1. Regular updates
+2. Multiple source verification
+3. Historical data tracking
+4. Trend analysis
 
-### Quality Control
-1. Data validation
-2. Method verification
-3. Result testing
-4. Peer review
-5. Update cycle
+### Analysis Process
+- Systematic approach
+- Regular monitoring
+- Data validation
+- Expert consultation
 
-## Related Features
+## Additional Resources
 
-- [Market Size Analysis](market-size.md)
-- [Price Analysis](price.md)
-- [Regional Analysis](regional.md)
-- [Trend Analysis](trends.md)
-
-## Support Resources
-
-- [Troubleshooting](../support/troubleshooting.md)
-- [Common Issues](../support/issues.md)
-- [Contact Support](../support/contact.md)
+- [Getting Started Guide](../getting-started/quick-start.md)
 - [FAQ](../getting-started/faq.md)
+- [Technical Support](../support/contact.md)

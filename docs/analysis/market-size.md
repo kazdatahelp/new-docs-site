@@ -1,193 +1,67 @@
 # Market Size Analysis
 
-Learn how to analyze market sizes using KazDATA's comprehensive data and analysis tools.
+## Overview
 
-## Analysis Methods
+Market size analysis in KazDATA allows you to evaluate the total market volume and potential across various sectors of Kazakhstan's economy.
 
-### Volume Analysis
-- Total market volume
-- Market segments
-- Growth rates
-- Market share
-- Market potential
+## Methodology
 
-### Value Analysis
-- Market value
-- Revenue metrics
-- Price analysis
-- Value chains
-- Economic impact
+### Data Collection
+- Production data
+- Import/export data
+- Sales data
+- Industry statistics
 
-## Market Components
-
-### Supply Side
-- Production volume
-- Import volume
-- Inventory levels
-- Capacity utilization
-- Supply constraints
-
-### Demand Side
-- Consumption patterns
-- Export volume
-- Market requirements
-- Demand drivers
-- Growth factors
-
-## Segmentation
-
-### Market Segments
-- Product categories
-- Industry sectors
-- Geographic regions
-- Customer types
-- Price segments
-
-### Segment Analysis
-- Size comparison
-- Growth potential
-- Market share
-- Competition level
-- Entry barriers
-
-## Geographic Analysis
-
-### Regional Markets
-- National market
-- Regional markets
-- Local markets
-- Export markets
-- Growth zones
-
-### Location Factors
-- Population density
-- Economic activity
-- Infrastructure
-- Resources
-- Market access
-
-## Time Analysis
-
-### Historical Data
-- Past performance
-- Growth trends
-- Market cycles
-- Seasonal patterns
-- Long-term evolution
-
-### Future Projections
-- Growth forecast
-- Market potential
-- Trend analysis
-- Scenario planning
-- Risk assessment
-
-## Competition Analysis
-
-### Market Structure
-- Number of players
-- Market concentration
-- Leading companies
-- Market shares
-- Competition level
-
-### Competitive Dynamics
-- Entry barriers
-- Exit barriers
-- Market power
-- Strategic groups
-- Competitive advantage
-
-## Growth Analysis
-
-### Growth Metrics
-- Volume growth
-- Value growth
-- Market expansion
-- Segment growth
-- Regional growth
-
-### Growth Factors
-- Market drivers
-- Growth barriers
-- Opportunities
-- Threats
-- Success factors
-
-## Data Sources
-
-### Primary Data
-- Production statistics
-- Trade data
-- Company reports
-- Market surveys
-- Expert opinions
-
-### Secondary Data
-- Industry reports
-- Government data
-- Research studies
-- News sources
-- Analysis reports
+### Market Volume Calculation
+1. Total production volume determination
+2. Import and export accounting
+3. Domestic consumption analysis
+4. Growth potential assessment
 
 ## Analysis Tools
 
-### Statistical Tools
-- Basic statistics
-- Trend analysis
-- Correlation studies
-- Regression analysis
-- Forecasting models
+### Data Filters
+- By region
+- By industry
+- By time period
+- By product category
 
-### Visualization Tools
-- Market charts
-- Growth graphs
-- Share diagrams
+### Visualization
+- Trend graphs
+- Pie charts
+- Bar charts
 - Heat maps
-- Trend lines
 
-## Report Generation
+## Practical Application
 
-### Standard Reports
-- Market overview
-- Size analysis
-- Growth trends
-- Competition analysis
-- Future outlook
+### Market Potential Assessment
+1. Historical data analysis
+2. Trend forecasting
+3. Seasonality identification
+4. Market opportunity evaluation
 
-### Custom Reports
-- Segment focus
-- Regional analysis
-- Time series
-- Combined metrics
-- Special studies
+### Market Segmentation
+- By geography
+- By industry
+- By product type
+- By consumer type
 
-## Best Practices
+## Usage Recommendations
 
-### Analysis Planning
-1. Define scope
-2. Select methods
-3. Gather data
-4. Validate results
-5. Document findings
+### Best Practices
+1. Regular data updates
+2. Multiple source combination
+3. Seasonal factor consideration
+4. Result verification
 
-### Quality Control
-1. Data validation
-2. Method verification
-3. Result testing
-4. Peer review
-5. Update cycle
+### Common Mistakes
+- Incomplete data accounting
+- Seasonality ignorance
+- Incorrect segmentation
+- Outdated data use
 
-## Related Features
+## Additional Resources
 
-- [Competition Analysis](competition.md)
-- [Price Analysis](price.md)
-- [Regional Analysis](regional.md)
-- [Trend Analysis](trends.md)
-
-## Support Resources
-
-- [Troubleshooting](../support/troubleshooting.md)
-- [Common Issues](../support/issues.md)
-- [Contact Support](../support/contact.md)
+- [Getting Started Guide](../getting-started/quick-start.md)
 - [FAQ](../getting-started/faq.md)
+- [Technical Support](../support/contact.md)

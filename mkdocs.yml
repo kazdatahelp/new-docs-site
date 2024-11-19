@@ -7,7 +7,6 @@ theme:
   name: material
   custom_dir: overrides
   features:
-    - navigation.instant
     - navigation.tracking
     - navigation.sections
     - navigation.expand
@@ -36,7 +35,6 @@ theme:
     code: Roboto Mono
   favicon: assets/logo.svg
   logo: assets/logo.svg
-  language: en
 
 # Extensions
 markdown_extensions:
@@ -81,7 +79,10 @@ markdown_extensions:
 
 # Plugins
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+        - ru
   - tags
   - glightbox:
       auto_caption: true
@@ -92,99 +93,130 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
-
-# Navigation
-nav:
-  - Home: index.md
-  - Getting Started:
-    - Platform Overview: getting-started/platform-overview.md
-    - Quick Start Guide: getting-started/quick-start.md
-    - Registration & Account: getting-started/registration.md
-    - Subscription Plans: getting-started/subscription.md
-    - Interface Overview: getting-started/interface.md
-    - FAQ: getting-started/faq.md
-  
-  - Core Modules:
-    - Organizations:
-      - Overview: modules/organizations/overview.md
-      - Search Features: modules/organizations/search.md
-      - Company Profiles: modules/organizations/profiles.md
-      - Contact Database: modules/organizations/contacts.md
-      - Data Export: modules/organizations/export.md
-    
-    - Import/Export:
-      - Overview: modules/import-export/overview.md
-      - Import Analysis: modules/import-export/import.md
-      - Export Analysis: modules/import-export/export.md
-      - Country Analysis: modules/import-export/countries.md
-      - Product Search: modules/import-export/products.md
-      - Trade Dynamics: modules/import-export/dynamics.md
-    
-    - Production:
-      - Overview: modules/production/overview.md
-      - Industry Categories: modules/production/categories.md
-      - Volume Analysis: modules/production/volume.md
-      - Data Export: modules/production/export.md
-    
-    - Procurement:
-      - Overview: modules/procurement/overview.md
-      - Database Info: modules/procurement/database.md
-      - Methods: modules/procurement/methods.md
-      - Price Analysis: modules/procurement/price.md
-      - Seasonal Analysis: modules/procurement/seasonal.md
-      - Reports: modules/procurement/reports.md
-  
-  - Analysis Tools:
-    - Market Size: analysis/market-size.md
-    - Competition: analysis/competition.md
-    - Price Analysis: analysis/price.md
-    - Regional Analysis: analysis/regional.md
-    - Trend Analysis: analysis/trends.md
-  
-  - Use Cases:
-    - Market Research: use-cases/market-research.md
-    - Finding Partners: use-cases/partners.md
-    - Competition Analysis: use-cases/competition.md
-    - Price Monitoring: use-cases/price-monitoring.md
-    - Industry Analysis: use-cases/industry.md
-  
-  - Data Management:
-    - Export Options: data/export.md
-    - File Formats: data/formats.md
-    - Working with Data: data/working.md
-    - Best Practices: data/best-practices.md
-  
-  - Tutorials:
-    - Overview: tutorials/index.md
-    - Getting Started:
-      - Introduction: tutorials/getting-started/intro.md
-      - First Steps: tutorials/getting-started/first-steps.md
-      - Search Guide: tutorials/getting-started/search.md
-      - Data Export: tutorials/getting-started/export.md
-      - Save & Organize: tutorials/getting-started/saving.md
-    - Advanced Features:
-      - Advanced Search: tutorials/advanced/search.md
-      - Advanced Export: tutorials/advanced/export.md
-      - Data Integration: tutorials/advanced/integration.md
-      - API Integration: tutorials/advanced/api.md
-      - Data Visualization: tutorials/advanced/visualization.md
-      - Statistical Analysis: tutorials/advanced/statistics.md
-      - Report Generation: tutorials/advanced/reports.md
-      - Data Organization: tutorials/advanced/organization.md
-  
-  - API:
-    - Overview: api/index.md
-    - Rate Limits: api/rate-limits.md
-    - Changelog: api/changelog.md
-  
-  - Support:
-    - Troubleshooting: support/troubleshooting.md
-    - Common Issues: support/issues.md
-    - Contact: support/contact.md
-    - Updates: support/updates.md
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          nav:
+            - Home: index.md
+            - Getting Started:
+              - Platform Overview: getting-started/platform-overview.md
+              - Quick Start: getting-started/quick-start.md
+              - Registration: getting-started/registration.md
+              - Subscription: getting-started/subscription.md
+              - Interface: getting-started/interface.md
+              - FAQ: getting-started/faq.md
+            - Analysis:
+              - Market Size: analysis/market-size.md
+              - Competition: analysis/competition.md
+              - Price: analysis/price.md
+              - Regional: analysis/regional.md
+              - Trends: analysis/trends.md
+            - Use Cases:
+              - Market Research: use-cases/market-research.md
+              - Partner Search: use-cases/partners.md
+              - Price Monitoring: use-cases/price-monitoring.md
+              - Industry Analysis: use-cases/industry.md
+            - Modules:
+              - Import/Export:
+                - Overview: modules/import-export/overview.md
+                - Countries: modules/import-export/countries.md
+                - Dynamics: modules/import-export/dynamics.md
+                - Export: modules/import-export/export.md
+                - Import: modules/import-export/import.md
+                - Products: modules/import-export/products.md
+              - Production:
+                - Overview: modules/production/overview.md
+                - Categories: modules/production/categories.md
+                - Export: modules/production/export.md
+                - Volume: modules/production/volume.md
+              - Organizations:
+                - Overview: modules/organizations/overview.md
+                - Contacts: modules/organizations/contacts.md
+                - Export: modules/organizations/export.md
+                - Profiles: modules/organizations/profiles.md
+                - Search: modules/organizations/search.md
+              - Procurement:
+                - Overview: modules/procurement/overview.md
+                - Database: modules/procurement/database.md
+                - Methods: modules/procurement/methods.md
+                - Price: modules/procurement/price.md
+                - Reports: modules/procurement/reports.md
+                - Seasonal: modules/procurement/seasonal.md
+            - Support:
+              - Contact: support/contact.md
+              - Troubleshooting: support/troubleshooting.md
+              - Known Issues: support/issues.md
+              - Updates: support/updates.md
+        - locale: ru
+          name: Русский
+          build: true
+          nav:
+            - Главная: ru/index.md
+            - Начало работы:
+              - Обзор платформы: ru/platform-overview.md
+              - Быстрый старт: ru/quick-start.md
+              - Регистрация: ru/registration.md
+              - Подписка: ru/subscription.md
+              - Интерфейс: ru/interface.md
+              - Вопросы и ответы: ru/getting-started/faq.md
+            - Анализ:
+              - Размер рынка: ru/analysis/market-size.md
+              - Конкуренция: ru/analysis/competition.md
+              - Цены: ru/analysis/price.md
+              - Региональный: ru/analysis/regional.md
+              - Тренды: ru/analysis/trends.md
+            - Примеры использования:
+              - Исследование рынка: ru/use-cases/market-research.md
+              - Поиск партнеров: ru/use-cases/partners.md
+              - Мониторинг цен: ru/use-cases/price-monitoring.md
+              - Отраслевой анализ: ru/use-cases/industry.md
+            - Модули:
+              - Импорт/Экспорт:
+                - Обзор: ru/modules/import-export/overview.md
+                - Страны: ru/modules/import-export/countries.md
+                - Динамика: ru/modules/import-export/dynamics.md
+                - Экспорт: ru/modules/import-export/export.md
+                - Импорт: ru/modules/import-export/import.md
+                - Товары: ru/modules/import-export/products.md
+              - Производство:
+                - Обзор: ru/modules/production/overview.md
+                - Категории: ru/modules/production/categories.md
+                - Экспорт: ru/modules/production/export.md
+                - Объем: ru/modules/production/volume.md
+              - Организации:
+                - Обзор: ru/modules/organizations/overview.md
+                - Контакты: ru/modules/organizations/contacts.md
+                - Экспорт: ru/modules/organizations/export.md
+                - Профили: ru/modules/organizations/profiles.md
+                - Поиск: ru/modules/organizations/search.md
+              - Закупки:
+                - Обзор: ru/modules/procurement/overview.md
+                - База данных: ru/modules/procurement/database.md
+                - Методы: ru/modules/procurement/methods.md
+                - Цены: ru/modules/procurement/price.md
+                - Отчеты: ru/modules/procurement/reports.md
+                - Сезонность: ru/modules/procurement/seasonal.md
+            - Поддержка:
+              - Контакты: ru/support/contact.md
+              - Устранение неполадок: ru/support/troubleshooting.md
+              - Известные проблемы: ru/support/issues.md
+              - Обновления: ru/support/updates.md
 
 # Customization
 extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Русский
+      link: /ru/
+      lang: ru
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/yourusername

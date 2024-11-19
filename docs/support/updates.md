@@ -1,217 +1,79 @@
-# Updates & Changes
-
-Stay informed about the latest improvements and changes to the KazDATA platform.
+# Updates and Changes
 
 ## Latest Updates
 
-### March 2024
+### March 2024 (v2.1.3)
 
 #### New Features
-- Advanced search filters in Organizations module
-- Improved data export options
-- New visualization tools for trend analysis
-- Enhanced API capabilities
+- Added advanced filtering options for organization search
+- Implemented bulk export functionality
+- Added new data visualization tools
+- Introduced customizable dashboard layouts
 
 #### Improvements
-- Faster search performance
-- Updated company contact information
-- Enhanced data accuracy
-- Improved user interface
+- Enhanced search performance by 40%
+- Optimized database queries for faster response times
+- Improved mobile responsiveness
+- Updated UI elements for better accessibility
 
 #### Bug Fixes
-- Fixed export timeout issues
-- Resolved search filter conflicts
-- Corrected data display errors
-- Fixed browser compatibility issues
+- Fixed Excel export formatting issues
+- Resolved CSV character encoding problems
+- Fixed PDF generation errors
+- Corrected pagination in search results
 
-## Recent Changes
+### February 2024 (v2.1.2)
 
-### February 2024
+#### New Features
+- Added support for custom data fields
+- Implemented new reporting templates
+- Added API rate monitoring dashboard
+- Introduced data comparison tools
 
-#### Features Added
-- Regional analysis tools
-- Custom report builder
-- Bulk data export
-- New data filters
+#### Improvements
+- Enhanced data validation processes
+- Updated documentation with new examples
+- Improved error messaging
+- Optimized cache management
 
-#### Enhancements
-- Updated procurement database
-- Improved search algorithms
-- Enhanced data validation
-- Better mobile responsiveness
-
-#### Fixed Issues
-- Search performance issues
-- Export format problems
-- Interface glitches
-- Login errors
-
-### January 2024
-
-#### New Capabilities
-- Market analysis tools
-- Price comparison features
-- Industry reports
-- Data visualization options
-
-#### System Updates
-- Database optimization
-- Security enhancements
-- Performance improvements
-- Interface updates
+#### Bug Fixes
+- Fixed navigation menu responsiveness
+- Resolved date picker issues in Safari
+- Fixed table column resizing
+- Corrected data sorting inconsistencies
 
 ## Upcoming Changes
 
-### Planned Features
+### Planned for April 2024
+- New data analysis tools
+- Enhanced export options
+- Improved search algorithms
+- Additional language support
 
-#### Q2 2024
-- Advanced analytics dashboard
-- Custom report templates
-- Enhanced data visualization
-- Mobile app launch
-
-#### Q3 2024
+### Under Development
+- Real-time data updates
+- Advanced reporting features
+- Mobile application
 - API improvements
-- New data sources
-- Enhanced search capabilities
-- Additional export formats
 
-### In Development
+## Previous Versions
 
-#### Features
-- Machine learning predictions
-- Advanced data analytics
-- Custom dashboards
-- Integration options
+### January 2024 (v2.1.1)
+- Initial release of new search interface
+- Performance optimizations
+- Bug fixes and stability improvements
 
-#### Improvements
-- Faster data processing
-- Enhanced accuracy
-- Better user experience
-- More export options
+### December 2023 (v2.1.0)
+- Major platform update
+- New user interface
+- Enhanced security features
+- Improved data processing
 
-## Version History
+## Update Policy
 
-### Version 3.0 (Current)
-- Complete platform redesign
-- New search engine
-- Enhanced data accuracy
-- Improved performance
+- Major updates: Every 3 months
+- Minor updates: Monthly
+- Security patches: As needed
+- Maintenance: Weekly
 
-### Version 2.5
-- Added procurement analysis
-- Enhanced export features
-- Improved search filters
-- Better data visualization
-
-### Version 2.0
-- Added market analysis
-- Enhanced data coverage
-- Improved interface
-- Better performance
-
-## Data Updates
-
-### Schedule
-
-#### Daily Updates
-- Company information
-- Contact details
-- Procurement data
-- Status changes
-
-#### Monthly Updates
-- Trade statistics
-- Market analysis
-- Industry reports
-- Trend data
-
-#### Quarterly Updates
-- Economic indicators
-- Industry analysis
-- Market reports
-- Regional data
-
-## Platform Maintenance
-
-### Scheduled Maintenance
-- Regular updates: Every Sunday, 02:00-04:00 (Astana time)
-- Major updates: First Sunday of each month
-- Emergency maintenance: As needed, with notice
-
-### Impact During Updates
-- Limited access during updates
-- Possible slow performance
-- Temporary feature restrictions
-- Export limitations
-
-## Notification System
-
-### How to Stay Informed
-1. Email notifications
-2. Dashboard announcements
-3. System notifications
-4. Social media updates
-
-### Notification Settings
-- Configure in user profile
-- Choose notification types
-- Set frequency
-- Select channels
-
-## Feature Requests
-
-### How to Submit
-1. Use feedback form
-2. Contact support
-3. Submit through dashboard
-4. Email suggestions
-
-### Request Process
-1. Submission review
-2. Feasibility assessment
-3. Development planning
-4. Implementation schedule
-
-## Documentation Updates
-
-### Recent Changes
-- New user guides
-- Updated tutorials
-- Enhanced examples
-- Better organization
-
-### Coming Soon
-- Video tutorials
-- Interactive guides
-- Use case examples
-- Best practices
-
-## Support Resources
-
-- [Contact Support](contact.md)
-- [Troubleshooting Guide](troubleshooting.md)
-- [Common Issues](issues.md)
-- [FAQ](../getting-started/faq.md)
-
-## Stay Connected
-
-### Social Media
-- LinkedIn: @KazDATA
-- Twitter: @KazDATA_official
-- Facebook: @KazDATAofficial
-- Telegram: @KazDATA_updates
-
-### Newsletter
-- Monthly updates
-- Feature announcements
-- Tips and tricks
-- Success stories
-
-## Feedback
-
-Help us improve by:
-1. Reporting issues
-2. Suggesting features
-3. Sharing experiences
-4. Rating updates
+For more information about specific changes, please check our [known issues](issues.md) page or [contact support](contact.md).

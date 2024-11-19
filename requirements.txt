@@ -8,6 +8,7 @@ mkdocs-minify-plugin>=0.7.0
 mkdocs-git-revision-date-plugin>=0.3.0
 mkdocs-git-authors-plugin>=0.7.0
 mkdocs-redirects>=1.2.0
+mkdocs-static-i18n>=1.2.0
 
 # Markdown Extensions
 pymdown-extensions>=10.0

@@ -1,206 +1,68 @@
 # Frequently Asked Questions
 
-Find answers to common questions about KazDATA platform.
+## General Questions
 
-## :material-account: Account & Access
+### What is KazDATA?
+KazDATA is a comprehensive data platform providing access to business, trade, and procurement information in Kazakhstan.
 
-??? question "How do I create a KazDATA account?"
-    1. Visit [kazdata.kz](https://kazdata.kz)
-    2. Click "Register" button
-    3. Fill in your business details
-    4. Verify your email
-    5. Complete profile setup
-    
-    See [Registration Guide](registration.md) for detailed instructions.
+### How often is the data updated?
+Data is updated daily for most modules, with real-time updates for critical information.
 
-??? question "What subscription plans are available?"
-    KazDATA offers three main plans:
-    
-    - Basic: For individual users
-    - Professional: For teams and businesses
-    - Enterprise: For large organizations
-    
-    View [Subscription Plans](subscription.md) for full details.
+### Is this service paid?
+Yes, KazDATA operates on a subscription basis. See our [subscription page](../getting-started/subscription.md) for pricing details.
 
-??? question "Can I try KazDATA before subscribing?"
-    Yes! We offer a 7-day free trial of our Professional plan. You can:
-    
-    - Access all features
-    - Test data exports
-    - Evaluate tools
-    - No credit card required
+## Account Management
 
-## :material-database: Data & Content
+### How do I register?
+Visit our [registration page](../getting-started/registration.md) and follow the step-by-step instructions.
 
-??? question "How often is the data updated?"
-    Data update frequency varies by type:
-    
-    - Company information: Daily updates
-    - Trade data: Monthly updates
-    - Production statistics: Quarterly updates
-    - Procurement data: Real-time updates
+### How can I change my password?
+1. Log into your account
+2. Go to Profile Settings
+3. Select "Change Password"
+4. Follow the prompts
 
-??? question "What data sources do you use?"
-    KazDATA aggregates data from:
-    
-    - Official government sources
-    - Public registries
-    - Statistical agencies
-    - Verified business records
-    - Open data sources
+### What should I do if I forgot my password?
+Use the "Forgot Password" link on the login page to reset your password through your email.
 
-??? question "How accurate is your data?"
-    We maintain high data accuracy through:
-    
-    - Regular verification
-    - Multiple source cross-checking
-    - Automated validation
-    - Manual quality control
-    - User feedback system
+## Data Access
 
-## :material-tools: Features & Usage
+### How can I download data?
+Each module has an export function. See our [quick start guide](../getting-started/quick-start.md) for detailed instructions.
 
-??? question "What can I do with KazDATA?"
-    Key capabilities include:
-    
-    - Company research
-    - Market analysis
-    - Trade data analysis
-    - Production monitoring
-    - Procurement tracking
-    
-    See [Platform Overview](platform-overview.md) for more details.
+### What formats are available for export?
+- Excel (.xlsx)
+- CSV
+- PDF
+- API access (for enterprise subscriptions)
 
-??? question "Can I export data to Excel?"
-    Yes! Export options include:
-    
-    - Excel (.xlsx)
-    - CSV files
-    - PDF reports
-    - Custom formats
-    
-    Learn more in our [Export Guide](../data/export.md).
+### Is there a limit to how much data I can download?
+Download limits vary by subscription tier. Check your subscription details for specific limits.
 
-??? question "Is there an API available?"
-    Yes, API access is available for:
-    
-    - Professional plans (limited)
-    - Enterprise plans (full access)
-    - Custom integrations
-    
-    Contact support for API documentation.
+## Technical Support
 
-## :material-cog: Technical Questions
+### What browsers are supported?
+- Google Chrome (recommended)
+- Mozilla Firefox
+- Safari
+- Microsoft Edge
 
-??? question "What browsers are supported?"
-    KazDATA supports modern browsers:
-    
-    - Chrome (recommended)
-    - Firefox
-    - Safari
-    - Edge
-    - Opera
+### What should I do if I encounter an error?
+1. Check our [troubleshooting guide](../support/troubleshooting.md)
+2. Review [known issues](../support/issues.md)
+3. Contact support if the problem persists
 
-??? question "Can I access KazDATA on mobile devices?"
-    Yes, KazDATA is accessible on:
-    
-    - Smartphones
-    - Tablets
-    - Mobile browsers
-    - Responsive design
+### How can I report a bug?
+Submit a detailed report through our [support portal](../support/contact.md#submit-ticket).
 
-??? question "How secure is my data?"
-    We ensure security through:
-    
-    - SSL encryption
-    - Secure servers
-    - Regular backups
-    - Access controls
-    - Security audits
+## Feature Requests
 
-## :material-currency-usd: Billing & Payments
+### Can I request new features?
+Yes! Submit feature requests through our [support portal](../support/contact.md#feature-request).
 
-??? question "What payment methods are accepted?"
-    We accept various payment methods:
-    
-    - Credit/Debit cards
-    - Bank transfers
-    - Electronic payments
-    - Corporate accounts
-    - Manual invoicing
-
-??? question "Can I change my subscription plan?"
-    Yes, you can:
-    
-    - Upgrade anytime
-    - Downgrade at renewal
-    - Cancel subscription
-    - Adjust team size
-    - Modify features
-
-??? question "How does billing work?"
-    Billing options include:
-    
-    - Monthly subscription
-    - Annual subscription (20% savings)
-    - Custom billing cycles
-    - Enterprise agreements
-
-## :material-lifebuoy: Support & Help
-
-??? question "How can I get help?"
-    Support options include:
-    
-    - Email support
-    - Live chat
-    - Phone support
-    - Help documentation
-    - Video tutorials
-
-??? question "Is training available?"
-    Yes, we offer:
-    
-    - Online tutorials
-    - Webinars
-    - Custom training
-    - Documentation
-    - Best practices guides
-
-??? question "What if I find incorrect data?"
-    Report data issues through:
-    
-    - Data correction form
-    - Support ticket
-    - Direct contact
-    - Feedback system
-
-## :material-rocket: Getting Started
-
-??? question "How do I start using KazDATA?"
-    Follow these steps:
-    
-    1. [Register account](registration.md)
-    2. [Choose plan](subscription.md)
-    3. [Complete tutorial](quick-start.md)
-    4. [Explore features](platform-overview.md)
-
-??? question "What's the best way to learn the platform?"
-    We recommend:
-    
-    1. Read [Quick Start Guide](quick-start.md)
-    2. Watch tutorial videos
-    3. Try sample searches
-    4. Explore documentation
-    5. Contact support if needed
-
-## Still Have Questions?
-
-If you couldn't find the answer you're looking for:
-
-- [Contact Support](../support/contact.md)
-- [Submit Ticket](../support/contact.md#submit-ticket)
-- [Request Feature](../support/contact.md#feature-request)
-- [Report Issue](../support/issues.md)
-
-!!! tip "Need More Help?"
-    Our support team is available to assist you with any questions or concerns. Don't hesitate to reach out!
+### How do you prioritize feature requests?
+We evaluate requests based on:
+- User demand
+- Technical feasibility
+- Strategic alignment
+- Resource requirements
