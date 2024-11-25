@@ -1,2 +1,6 @@
-# docs
+---
+icon: file-lines
+---
+
+# Docs
 
